@@ -18,6 +18,22 @@
           }
         }
       },
+      "AutoMapper.Extensions.EnumMapping/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "[12.0.0, 13.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
         "type": "package",
         "dependencies": {
@@ -442,6 +458,21 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.EnumMapping/3.1.0": {
+      "sha512": "8cH94J1ExLkMf1L9GOij2t/8KeNnjRd8Rz4q0geFTZxrilLe61/0r4WHb2KGQKOF/wGsFJNeB97sD6qglpGhVQ==",
+      "type": "package",
+      "path": "automapper.extensions.enummapping/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.enummapping.3.1.0.nupkg.sha512",
+        "automapper.extensions.enummapping.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.dll",
+        "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.xml"
       ]
     },
     "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
@@ -1120,6 +1151,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper.Extensions.EnumMapping >= 3.1.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4"
@@ -1145,6 +1177,7 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1163,6 +1196,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AutoMapper.Extensions.EnumMapping": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
