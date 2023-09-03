@@ -6,5 +6,6 @@ public enum HomeTypes
     Townhouse,
     Condos,
     Lots,
-    Apartments
+    Apartments,
+    COUNT
 }
