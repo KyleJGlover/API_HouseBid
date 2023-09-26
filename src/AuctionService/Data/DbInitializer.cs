@@ -31,6 +31,8 @@ public class DbInitializer
                 Item = new Item
                 {
                     Type = HomeTypes.House,
+                    Country = "USA",
+                    Address = "1 Kyle Street",
                     Bed = 3,
                     Bath = 2.5,
                     Parking = 2,
@@ -51,7 +53,9 @@ public class DbInitializer
                 AuctionEnd = DateTime.UtcNow.AddDays(5),
                 Item = new Item
                 {
-                    Type = HomeTypes.Condos,
+                    Type = HomeTypes.Condo,
+                    Country = "CANADA",
+                    Address = "2 Blake Street",
                     Bed = 2,
                     Bath = 1,
                     Parking = 1,
@@ -72,7 +76,9 @@ public class DbInitializer
                 AuctionEnd = DateTime.UtcNow.AddDays(2),
                 Item = new Item
                 {
-                    Type = HomeTypes.Lots,
+                    Type = HomeTypes.Lot,
+                    Country = "SPAIN",
+                    Address = "3 Alyssa Street",
                     Bed = 5,
                     Bath = 3,
                     Parking = 4,
@@ -93,7 +99,9 @@ public class DbInitializer
                 AuctionEnd = DateTime.UtcNow.AddDays(8),
                 Item = new Item
                 {
-                    Type = HomeTypes.Apartments,
+                    Type = HomeTypes.Apartment,
+                    Country = "MEXICO",
+                    Address = "4 Sierra Street",
                     Bed = 3,
                     Bath = 2,
                     Parking = 2,

@@ -4,8 +4,8 @@ public enum HomeTypes
 {
     House,
     Townhouse,
-    Condos,
-    Lots,
-    Apartments,
+    Condo,
+    Lot,
+    Apartment,
     COUNT
 }

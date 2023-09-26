@@ -9,6 +9,12 @@ public class CreateAuctionDto
     [Range(0, (int)(HomeTypes.COUNT - 1))]
     public int Type { get; set; }
     [Required]
+    [StringLength(50, MinimumLength = 2)]
+    public string Country { get; set; }    
+    [Required]
+    [StringLength(100, MinimumLength = 2)]
+    public string Address { get; set; } 
+    [Required]
     public int Bed { get; set; } 
     [Required]
     public double Bath { get; set; }  

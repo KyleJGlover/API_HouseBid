@@ -37,6 +37,8 @@ namespace AuctionService.Data.Migrations
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Type = table.Column<int>(type: "integer", nullable: false),
+                    Country = table.Column<string>(type: "text", nullable: true),
+                    Address = table.Column<string>(type: "text", nullable: true),
                     Bed = table.Column<int>(type: "integer", nullable: false),
                     Bath = table.Column<double>(type: "double precision", nullable: false),
                     Parking = table.Column<int>(type: "integer", nullable: false),

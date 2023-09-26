@@ -13,6 +13,8 @@ public class AuctionDto
     public DateTime AuctionEnd { get; set; }
     public string Status { get; set; }
     public string Type { get; set; }
+    public string Country { get; set; }    
+    public string Address { get; set; } 
     public int Bed { get; set; } 
     public double Bath { get; set; }  
     public int Parking { get; set; }

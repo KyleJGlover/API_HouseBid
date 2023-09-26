@@ -9,6 +9,10 @@ public class Item
     public Guid Id { get; set; }
     // Type of home 
     public HomeTypes Type { get; set; }
+    // Country of the listing
+    public string Country { get; set; } 
+    // Address of the listing
+    public string Address { get; set; } 
     // Number of beds
     public int Bed { get; set; }
     // Number of baths can be decimal  
